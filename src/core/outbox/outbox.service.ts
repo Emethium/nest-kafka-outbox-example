@@ -1,6 +1,6 @@
 import { Injectable, Logger } from '@nestjs/common';
 import { Cron, CronExpression } from '@nestjs/schedule';
-import { MongoDBService } from '../databaase/mongodb.service';
+import { MongoDBService } from '../database/mongodb.service';
 import { KafkaService } from '../event-bus/kafka.service';
 import { DEFAULT_KAFKA_TOPIC } from '../event-bus/kafka.configuration';
 

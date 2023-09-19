@@ -1,7 +1,7 @@
 import { Module, Global, Logger } from '@nestjs/common';
 import { ConfigModule, ConfigService } from '@nestjs/config';
 import Configuration from '../configuration/configuration';
-import { MongoDBService } from '../databaase/mongodb.service';
+import { MongoDBService } from '../database/mongodb.service';
 import { KafkaService } from '../event-bus/kafka.service';
 import { setupKafkaConfig } from '../event-bus/kafka.configuration';
 import { Kafka } from 'kafkajs';

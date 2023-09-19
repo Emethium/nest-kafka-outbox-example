@@ -1,5 +1,5 @@
 import { Injectable, Logger } from '@nestjs/common';
-import { MongoDBService } from './core/databaase/mongodb.service';
+import { MongoDBService } from './core/database/mongodb.service';
 import { KafkaService } from './core/event-bus/kafka.service';
 import { nanoid } from 'nanoid';
 import { DEFAULT_KAFKA_TOPIC } from './core/event-bus/kafka.configuration';
